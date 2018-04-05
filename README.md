@@ -2,6 +2,7 @@
 
 This code is implementation of the paper https://arxiv.org/pdf/1703.05165.pdf on ISIC 2017: Skin Lesion Analysis Towards Melanoma Detection, Part 1: Lesion Segmentation.
 
+Competition link: https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a
 ---
 
 ## Data set folders
@@ -25,7 +26,8 @@ Here you dont need to run the **reshape.py** on images as the images in the fold
 
 1. **reshape.py** - code to reshape all the images in a folder to 192 x256 images.(No need to run in this case)
 2. **melanoma_segmentation.ipynb** - Jupyter notebook with all the code for convolution and deconvolution layers, training, etc.
-3. **load_batches.py** - load all the images in a folder to batchs ao batch size 16.(No need to run this script as another function which do the same operation as this is created in the jupyter notebook)
+3. **melanoma_segmentation.py** - Python script with same code as in **melanoma_segmentation.ipynb** jupyter notebook.
+4. **load_batches.py** - load all the images in a folder to batchs ao batch size 16.(No need to run this script as another function which do the same operation as this is created in the jupyter notebook)
 
 ---
 
