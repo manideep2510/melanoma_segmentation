@@ -352,7 +352,7 @@ def deconvolution(X):
         output = deconv(dconv8, [1, 1, 1, 16], 1, 'dconv9')
         return tf.reshape(output, (16,192,256))
     
-def model(X_train, Y_train, X_test, Y_test, learning_rate= 1e-5, num_epochs=300, minibatch_size=16, reuse=False):
+def model(X_train, Y_train, X_test, Y_test, learning_rate= 1e-5, num_epochs=300, minibatch_size=16, reuse=False, print_cost = True):
     with tf.variable_scope('model') as scope:
         if (reuse):
             tf.get_variable_scope().reuse_variables()
