@@ -44,6 +44,3 @@ Here you dont need to run the **reshape.py** on images as the images in the fold
 
 ---
 
-## Note
-
-The code after the line **_, _, parameters = model(X_train, Y_train, X_test, Y_test)** after the **model()** function in the main jupyter notebook is just spare code and some testing so **don't** run the code after the above mentioned line of code
