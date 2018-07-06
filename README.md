@@ -23,8 +23,8 @@ Here you dont need to run the **reshape.py** on images as the images in the fold
 
 ## Code
 
-1. **reshape.py** - code to reshape all the images in a folder to 192 x256 images.(No need to run in this case)
-2. **melanoma_segmentation1.ipynb** - **Jupyter notebook with all the code for convolution and deconvolution layers, training, etc.**
+1. **reshape.py** - code to reshape all the images in a folder to 192 x256 images.(No need to run in this case as the data in this repository is already reshaped)
+2. **melanoma_segmentation.ipynb** - **Jupyter notebook with all the code for convolution and deconvolution layers, training, etc.**
 3. **load_batches.py** - (Don't use this)load all the images in a folder to batchs ao batch size 16.(No need to run this script as another function which do the same operation as this is created in the jupyter notebook)
 
 ---
