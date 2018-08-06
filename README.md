@@ -6,7 +6,7 @@ This code is implementation of the paper https://arxiv.org/pdf/1703.05165.pdf on
 
 ## Data set folders
 
-1. **trainx** - 2000 training RGB images of effected parts of skin resized to 192 x 256.
+1. `trainx` - 2000 training RGB images of effected parts of skin resized to 192 x 256.
 2. **trainx** - 2000 segmented (Ground Truth) images of images in train resized to 192 x 256.
 3. **validationx** - 150 validation images of effected parts of skin resized to 192 x 256.
 4. **validationy** - 150 segmented (Ground Truth) images of images in train resized to 192 x 256.
