@@ -43,6 +43,6 @@ Here you dont need to run the [`reshape.py`](reshape.py) on images as the images
 
 ## Note
 
-1. The code after the line **_, _, parameters = model(X_train, Y_train, X_test, Y_test)** after the **model()** function in the main jupyter notebook is just spare code and some testing so **don't** run the code after the above mentioned line of code
+1. The code after the line ``_, _, parameters = model(X_train, Y_train, X_test, Y_test)`` after the `model()` function in the main jupyter notebook is just spare code and some testing so **don't** run the code after the above mentioned line of code
 
-2. In **melanoma_segmentation1.ipynb**, if you are running the jupyter notebook on your pc offline, **don't run** the cells with codes **"! git clone" and "cd"**. Run there cells only if you are running this notebook in Google Colab.
+2. In [`melanoma_segmentation.ipynb`](melanoma_segmentation.ipynb), if you are running the jupyter notebook on your pc offline, **don't run** the cells with codes ``! git clone`` and ``cd``. Run there cells only if you are running this notebook in Google Colab.
