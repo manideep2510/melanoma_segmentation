@@ -2,6 +2,8 @@
 
 This code is implementation of the paper "[Automatic skin lesion segmentation with fully convolutional-deconvolutional networks](https://arxiv.org/pdf/1703.05165.pdf)" on ISIC 2017: Skin Lesion Analysis Towards Melanoma Detection, Part 1: Lesion Segmentation.
 
+This code is implemented using [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/) frameworks.
+
 ---
 
 ## Data set folders
