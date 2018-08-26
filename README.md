@@ -4,8 +4,6 @@ This code is implementation of the paper "[Automatic skin lesion segmentation wi
 
 This code is implemented using [Keras](https://keras.io/) and [Tensorflow](https://www.tensorflow.org/) frameworks.
 
----
-
 ## Data set folders
 
 1. [`trainx`](trainx) - 2000 training RGB images of effected parts of skin resized to 192 x 256.
@@ -21,15 +19,11 @@ If you want to resize the original images in data set then use the [`reshape.py`
 
 Here you dont need to run the [`reshape.py`](reshape.py) on images as the images in the folders are already resized to our required dimensions i.e, 192 x 256 (Can see the reason for this in the original paper)
 
----
-
 ## Code
 
 1. [`reshape.py`](reshape.py) - code to reshape all the images in a folder to 192 x256 images.(No need to run in this case as the data in this repository is already reshaped)
 2. [`melanoma_segmentation.ipynb`](melanoma_segmentation.ipynb) - **Jupyter notebook with all the code for convolution and deconvolution layers, training, etc.**
 3. [`load_batches.py`](load_batches.py) - (Don't use this)load all the images in a folder to batchs of batch size 16.(No need to run this script as another function which do the same operation as this is created in the jupyter notebook)
-
----
 
 ## Errors
 
@@ -40,8 +34,6 @@ Here you dont need to run the [`reshape.py`](reshape.py) on images as the images
 3. (**Solved**)There is a problem with the function `unpool()` which need to be fixed.
 
    Created new function called `UnPooling2x2ZeroFilled()` instead of `unpool()` for unpooling layer during deconvolution which is working fine.
-
----
 
 ## Note
 
