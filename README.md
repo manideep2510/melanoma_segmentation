@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/automatic-skin-lesion-segmentation-with-fully/lesion-segmentation-isic-2017)](https://paperswithcode.com/sota/lesion-segmentation-isic-2017?p=automatic-skin-lesion-segmentation-with-fully)
+
 ## About
 
 This code is implementation of the paper "[Automatic skin lesion segmentation with fully convolutional-deconvolutional networks](https://arxiv.org/pdf/1703.05165.pdf)" on ISIC 2017: Skin Lesion Analysis Towards Melanoma Detection, Part 1: Lesion Segmentation.
